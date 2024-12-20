@@ -1,0 +1,75 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+small{
+    padding-top: 20px;
+}
+.chek{
+    position: absolute;
+    left: 90%;
+    bottom: 94%;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    color: white;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.p{
+    display: block;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.q{
+    width: 262px; 
+    height: 300px;
+}
+.bobo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 89vh;
+    width: 100%;
+    gap: 59px;
+}
+.card1{
+    padding: 10px;
+    width: 282px;
+    height: 433px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    position: relative;
+}
+.card2{
+    padding: 10px;
+    width: 282px;
+    height: 433px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    position: relative;
+}
+.kal{
+    align-items: center;
+    justify-content: center;
+}
+.asad{
+    padding: 15px 20px;
+    color: white;
+    border: none;
+    background-color: blue;
+    border-radius: 20px;
+}
+a{
+    margin: 0px 750px;
+}
+.card3{
+    padding: 10px;
+    width: 282px;
+    height: 433px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    position: relative;
+}

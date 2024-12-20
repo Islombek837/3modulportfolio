@@ -1,0 +1,297 @@
+*{
+    margin: 0px ;
+    padding: 0px;
+}
+body{
+    font-family: sans-serif;
+    background: linear-gradient(90deg, rgb(47, 0, 47), rgb(0, 0, 42)     );
+}
+nav{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.q{
+    color: white;
+    font-size: 40px;
+}
+.bobo{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    gap: 29px;
+    padding-bottom: 30px;
+}
+.card{
+    padding: 15px;
+    cursor: pointer;
+    width: 700px;
+    height: 500px;
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}   
+.card:hover{
+    background:linear-gradient(-134deg, rgb(36, 1, 49), rgb(36, 1, 49)    ) ;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.dvc{
+    cursor: pointer;
+    margin-top: 150px;
+    padding: 20px 70px ;
+    border-radius: 40px;
+    color: white;
+    background: transparent;
+    border: none;
+    animation-name: q;
+    animation-duration:3s ;
+    animation-iteration-count: 1    ;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.dvc:hover{
+    background:linear-gradient(-134deg, rgb(36, 1, 49), rgb(36, 1, 49)    ) ;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    margin-top: 150px;
+    padding: 20px 70px ;
+    border-radius: 40px;
+    color: white;
+    border: none;
+}
+@keyframes q {
+    10%{
+        transform: rotate(0deg);
+    }
+    40%{
+        transform: rotate(15deg);
+    }
+    90%{
+        transform: rotate(-15deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+.lll{
+    margin-top: 30px;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fg{
+    color: white;
+    font-size: 30px;
+    margin: 40px 70px 0px;
+}
+.rasm{
+    width: 200px;
+    height: 56% ;
+    margin: 0px auto 0px;
+    border-radius: 30px;
+    overflow: hidden;
+    border: 1px solid white;
+    padding-bottom: 30px;
+}
+.aziz:hover{
+    transform: scale(1.2);
+}
+.aziz{
+    width: 200px;
+    margin: 0px auto 0px;
+    border-radius: 30px;
+    transition: 0.3s linear;
+    animation-name: p;
+    animation-duration: 3s ;
+    animation-iteration-count:infinite;
+}
+.rasmw{
+    width: 300px;
+    height: 320px ;
+    margin: 0px auto 0px;
+    border-radius: 30px;
+    overflow: hidden;
+    border: 1px solid white;
+    padding-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.homidjon:hover{
+    transform: scale(2.2);
+}
+.homidjon{
+    transform: scale(2);
+    width: 200px;
+    margin: 0px auto 0px;
+    border-radius: 30px;
+    transition: 0.3s linear;
+    animation-name: pdf;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+}
+@keyframes pdf {
+    0%{
+        transform: scale(2);
+    }
+    25%{
+        transform: scale(2.1);
+    }
+    50%{
+        transform: scale(2.2);
+    }
+    75%{
+        transform: scale(2.1);
+    }
+    100%{
+        transform: scale(2);
+    }
+}
+.odiljon:hover{
+    transform: scale(1.2);
+}
+.odiljon{
+    width: 200px;
+    margin: 0px auto 0px;
+    border-radius: 30px;
+    transition: 0.3s linear;
+    animation-name: p;
+    animation-duration: 3s ;
+    animation-iteration-count:infinite;
+}
+.komiljon:hover{
+    transform: scale(1.2);
+}
+.komiljon{
+    width: 200px;
+    margin: 0px auto 0px;
+    border-radius: 30px;
+    transition: 0.3s linear;
+    animation-name: p;
+    animation-duration: 3s ;
+    animation-iteration-count:infinite;
+}
+.asad:hover{
+    transform: scale(1.2);
+}
+.rasm1{
+    width: 200px;
+    height: 225px;
+    margin: 0px auto 0px;
+    border-radius: 30px;
+    overflow: hidden;
+    border: 1px solid white;
+    padding-bottom: 30px;
+}
+.asad{
+    width: 200px;
+    margin: 0px auto 0px;
+    border-radius: 30px;
+    transition: 0.3s linear;
+    animation-name: p;
+    animation-duration: 3s ;
+    animation-iteration-count:infinite;
+}
+.fgq{
+    color: white;
+    font-size: 30px;
+    margin: 90px 70px 0px;
+}
+.fgk{
+    color: white;
+    font-size: 30px;
+    margin: 10px 70px 0px;
+}
+.choyxona:hover{
+    transform: scale(1.2);
+}
+.choyxona{
+    width: 200px;
+    margin: 0px auto 0px;
+    border-radius: 30px;
+    transition: 0.3s linear;
+    animation-name:gh ;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes pfg {
+    0%{
+        transform: scale(1);
+    }
+    25%{
+        transform: scale(1.1);
+    }
+    50%{
+        transform: scale(1.2);
+    }
+    75%{
+        transform: scale(1.1);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+.saidamirxon:hover{
+    transform: scale(1.5);
+}
+.saidamirxon{
+    width: 200px;
+    margin: 0px auto 0px;
+    border-radius: 30px;
+    transition: 0.3s linear;
+    transform: scale(1.35);
+    animation-name:gh ;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes gh {
+    0%{
+        transform: scale(1.35);
+    }
+    25%{
+        transform: scale(1.4);
+    }
+    50%{
+        transform: scale(1.5);
+    }
+    75%{
+        transform: scale(1.4);
+    }
+    100%{
+        transform: scale(1.35);
+    }
+}
+.muhammadbilol:hover{
+    transform: scale(1.5);
+}
+.muhammadbilol{
+    width: 200px;
+    margin: 0px auto 0px;
+    border-radius: 30px;
+    transition: 0.3s linear;
+    transform: scale(1.4);
+    animation-name: p;
+    animation-duration: 3s ;
+    animation-iteration-count:infinite;
+}
+@keyframes p {
+    0%{
+        transform: scale(1.4);
+    }
+    25%{
+        transform: scale(1.45);
+    }
+    50%{
+        transform: scale(1.5);
+    }
+    75%{
+        transform: scale(1.45);
+    }
+    100%{
+        transform: scale(1.4);
+    }
+}

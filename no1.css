@@ -1,0 +1,60 @@
+.BOBO{
+    display: flex;
+    width: 100%;
+    height: 89vh;
+    align-items: center;
+    justify-content: center;
+    gap: 59px;
+}
+.s{
+    position: absolute;
+    width: 108px;
+    height: 108px;
+    animation-name: s;
+    animation-duration: 3s;
+    animation-iteration-count:infinite ;
+    right: 0;
+    top: -50px;
+    right: -50px;
+
+    
+}
+@keyframes s{
+   from{
+   }
+   to{
+    transform: rotate(360deg);
+   }
+}
+.card{
+    width: 282px;
+    height: 354px;  
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    position: relative;
+
+}
+.kata{
+    display: flex;
+    height: 60px;
+}
+button{
+    margin-top: 10px;
+    margin-left: 180px;
+    padding: 15px 20px;
+    border-radius:10px ;
+    border: none;
+    background-color: blue;
+    color: white;
+}
+.orqa{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.alo{
+    margin-right: 180px;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,72 @@
+    body{
+    background-color: black;
+    }
+    .m{
+    width: 1500px;
+    height: 83px;
+    color: white;
+}
+div{
+    width: 1500px;
+    height: 670px ;
+}
+.q,.w,.e,.r,.t,.y,.u,.i{
+    display: inline-block;
+}
+.q{
+    margin-left: 200px;
+}
+.w{
+    margin-left: 300px;
+} 
+.e{
+    margin-left: 30px;
+}
+.r{
+    margin-left: 30px;
+}
+.t{
+    margin-left: 30px ;
+}
+.y{
+    margin-left: 30px;
+}
+.u{
+    margin-left: 170px;
+}
+.i{
+    margin-left: 30px ;
+    padding: 10px ;
+    background-color: green;
+    color: black;
+    border-radius: 3px;
+}
+.j{
+    background-image: url(no7.webp);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size:cover ;
+}
+h1{
+    font-size: 50px;
+    color: green;
+    margin-left: 120px;
+}
+.o{
+    padding-top: 124px;
+}
+.d,.f,.g{
+    margin-left: 120px;
+    color: black;
+}
+.h{
+    margin-left: 120px;
+    padding: 15px;
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+*{
+    font-family: "Playwrite GB S", cursive;
+}

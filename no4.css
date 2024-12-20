@@ -1,0 +1,84 @@
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    color: white;
+}
+*{
+    font-family: "Montserrat", sans-serif; 
+    margin: 0px;
+}
+.snf{
+    background: linear-gradient( 30deg, #0094FF -7.94%, #BD00FF 44.13%, #FFF851 102.85%);
+    height: 725px;
+}
+.sa{
+    display: flex;
+    margin-top: 225px;
+    justify-content: center;
+    font-size: 60px;
+    color:white ;
+}
+.cc{
+    display: flex;
+    justify-content: center;
+    gap: 43px;
+}
+input{
+    padding: 15px 190px;
+    border: none;
+    border-radius: 10px;
+}
+.Send{
+    padding: 15px 30px;
+    border-radius: 10px;
+    background: linear-gradient(99.58deg, #0094FF -7.94%, #BD00FF 44.13%, #FFF851 102.85%);
+    border: none ;
+}
+.bobo1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 220px;
+    height: 700px;
+}
+.t1{
+    background: linear-gradient(279.1deg, #0094FF 3.44%, #BD00FF 45.06%, #FFF851 91.99%);
+    border: none ;
+    padding:10px 195px ;
+    border-radius: 10px;
+    font-size: 30px;
+    color: white;
+}
+.bir1{   
+    width: 438px;
+    height: 302px;
+}
+.q1{
+    color: red;
+    font-size: 43px;
+}
+.new1{
+    display: flex;  
+    justify-content: center;
+    gap: 30px;
+}
+.r1{
+    font-size:35px;
+}
+.e1{
+    font-size: large;
+}
+.asab1{
+    
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    border: none;
+    border-radius: 10px;
+    padding: 0px 20px;
+    color: white;
+    background: linear-gradient(100.95deg, #CE1315 6.45%, #BD00FF 100%);
+
+}

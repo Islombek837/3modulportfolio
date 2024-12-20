@@ -1,0 +1,101 @@
+*{
+    font-family: "Tiny5", serif;    
+}
+.bobo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    height: 725px;
+    
+}
+.card{
+    border: 1px solid grey;
+    border-radius: 10px;
+    width: 340px;
+    height: 428px;
+    margin: 50px 30px ;
+    transition: 0,3s linear;
+    overflow: hidden;
+}   
+button{
+    border: none;
+    padding: 15px 20px;
+    border-radius: 20px;
+    background-color: aqua;
+}
+a{
+    margin-left: 700px;
+}
+.card:hover{
+   cursor: pointer;
+}
+.sad{
+    width: 340px;
+    transition: 0,3s linear;
+    overflow: hidden;
+}
+.r{
+    transition: 0.3s linear;
+}
+.r:hover{
+    transform: scale(1.5);
+}
+.e{
+    color: #787878;
+}
+.q{ 
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    overflow: hidden;
+    transition: 0.3s linear;
+}
+.bir{
+    display: flex;
+    justify-content: start;
+    gap: 30px;
+    padding: 10px;
+}
+.y{
+    transition: 0.3s linear;
+}
+.y:hover{
+    color: aqua;
+    transform: rotate(-30deg);
+}
+.u{
+    transition: 0.3s linear;
+}
+.u:hover{
+    color: blue;
+    transform: rotate(-30deg);
+}
+.i{
+    transition: 0.3s linear;
+}
+.i:hover{
+    color: orangered  ;
+    transform: rotate(-30deg);
+}
+.t{
+    transition: 0.3s linear;
+}
+.t:hover{
+    color: red;
+    transform: rotate(-30deg);
+}
+.icn1{
+    display: flex;  
+    gap: 5px;
+    padding-left: 10px;
+}
+.icon{
+    display: flex;
+    justify-content: start;
+    gap: 250px;
+    color:grey ;
+}
+.o,.p{
+    padding-left:10px ;
+}
